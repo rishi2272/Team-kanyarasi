@@ -9,7 +9,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-return('AI Model Server is Running')
+    return('AI Model Server is Running')
 
 @app.route('/predict',methods=['GET'])
 def predict():
